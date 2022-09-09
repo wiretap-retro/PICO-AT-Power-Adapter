@@ -1,0 +1,489 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:09-48-1064 J1
+U 1 1 62124D3F
+P 1500 1150
+F 0 "J1" H 2128 946 50  0000 L CNN
+F 1 "09-48-1064" H 2128 855 50  0000 L CNN
+F 2 "09481064" H 2150 1250 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/9481064_sd.pdf" H 2150 1150 50  0001 L CNN
+F 4 "Headers & Wire Housings 6 POS RECEPT .156 R/A PCB TIN" H 2150 1050 50  0001 L CNN "Description"
+F 5 "7.82" H 2150 950 50  0001 L CNN "Height"
+F 6 "538-09-48-1064" H 2150 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/09-48-1064?qs=qDyi%252BDzW2VMso3J1Nf5Bpg%3D%3D" H 2150 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 2150 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "09-48-1064" H 2150 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:09-48-1064 J2
+U 1 1 6212828C
+P 1500 1950
+F 0 "J2" H 2200 1750 50  0000 C CNN
+F 1 "09-48-1064" H 2400 1650 50  0000 C CNN
+F 2 "09481064" H 2150 2050 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/9481064_sd.pdf" H 2150 1950 50  0001 L CNN
+F 4 "Headers & Wire Housings 6 POS RECEPT .156 R/A PCB TIN" H 2150 1850 50  0001 L CNN "Description"
+F 5 "7.82" H 2150 1750 50  0001 L CNN "Height"
+F 6 "538-09-48-1064" H 2150 1650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/09-48-1064?qs=qDyi%252BDzW2VMso3J1Nf5Bpg%3D%3D" H 2150 1550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 2150 1450 50  0001 L CNN "Manufacturer_Name"
+F 9 "09-48-1064" H 2150 1350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:87427-2402 J3
+U 1 1 62128DDF
+P 3500 1300
+F 0 "J3" H 3950 1565 50  0000 C CNN
+F 1 "87427-2402" H 3950 1474 50  0000 C CNN
+F 2 "87427-2402" H 4250 1400 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/874270202_sd.pdf" H 4250 1300 50  0001 L CNN
+F 4 "Mini-Fit Jr. Header, 4.20mm Pitch, Right-Angle, without Flange, 24 Circuits, Tin (Sn) over Nickel (Ni) Plating  Series: 87427" H 4250 1200 50  0001 L CNN "Description"
+F 5 "10" H 4250 1100 50  0001 L CNN "Height"
+F 6 "538-87427-2402" H 4250 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/87427-2402?qs=%252BgKeJhng5iXjW1c8K3Hk8A%3D%3D" H 4250 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 4250 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "87427-2402" H 4250 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7905 U1
+U 1 1 6212BEDE
+P 4050 3500
+F 0 "U1" H 4050 3351 50  0000 C CNN
+F 1 "L7905" H 4050 3260 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 4050 3300 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C2
+U 1 1 6212D421
+P 4550 3300
+F 0 "C2" H 4638 3346 50  0000 L CNN
+F 1 "1uF" H 4638 3255 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 4550 3300 50  0001 C CNN
+F 3 "~" H 4550 3300 50  0001 C CNN
+	1    4550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 6212DD23
+P 3450 3300
+F 0 "C1" H 3538 3346 50  0000 L CNN
+F 1 "2.2uF" H 3538 3255 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 3450 3300 50  0001 C CNN
+F 3 "~" H 3450 3300 50  0001 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6212EB00
+P 1350 3350
+F 0 "D1" H 1343 3567 50  0000 C CNN
+F 1 "LED" H 1343 3476 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 3350 50  0001 C CNN
+F 3 "~" H 1350 3350 50  0001 C CNN
+	1    1350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6212F719
+P 1350 3750
+F 0 "D2" H 1343 3967 50  0000 C CNN
+F 1 "LED" H 1343 3876 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 3750 50  0001 C CNN
+F 3 "~" H 1350 3750 50  0001 C CNN
+	1    1350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 6212FD38
+P 1350 4150
+F 0 "D3" H 1343 4367 50  0000 C CNN
+F 1 "LED" H 1343 4276 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 4150 50  0001 C CNN
+F 3 "~" H 1350 4150 50  0001 C CNN
+	1    1350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 621301D5
+P 1850 3350
+F 0 "R1" V 1654 3350 50  0000 C CNN
+F 1 "330" V 1745 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 3350 50  0001 C CNN
+F 3 "~" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 621305FA
+P 1850 3750
+F 0 "R2" V 1654 3750 50  0000 C CNN
+F 1 "330" V 1745 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 3750 50  0001 C CNN
+F 3 "~" H 1850 3750 50  0001 C CNN
+	1    1850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 62130A92
+P 1850 4150
+F 0 "R3" V 1654 4150 50  0000 C CNN
+F 1 "1k" V 1745 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 4150 50  0001 C CNN
+F 3 "~" H 1850 4150 50  0001 C CNN
+	1    1850 4150
+	0    1    1    0   
+$EndComp
+Text Notes 2150 1100 0    50   ~ 0
+P9
+Text Notes 2150 1950 0    50   ~ 0
+P8
+Text Notes 3850 2650 0    50   ~ 0
+ATX24
+Text Label 1350 2450 2    50   ~ 0
+5V
+Text Label 1350 2350 2    50   ~ 0
+5V
+Text Label 1350 2150 2    50   ~ 0
+-5V
+Text Label 1350 2250 2    50   ~ 0
+5V
+Text Label 1350 2050 2    50   ~ 0
+GND
+Text Label 1350 1950 2    50   ~ 0
+GND
+Text Label 1350 1650 2    50   ~ 0
+GND
+Text Label 1350 1550 2    50   ~ 0
+GND
+Text Label 1350 1450 2    50   ~ 0
+-12V
+Text Label 1350 1350 2    50   ~ 0
+12V
+Text Label 1350 1250 2    50   ~ 0
+5V
+Text Label 1350 1150 2    50   ~ 0
+PG
+Wire Wire Line
+	1350 1150 1500 1150
+Wire Wire Line
+	1350 1250 1500 1250
+Wire Wire Line
+	1350 1350 1500 1350
+Wire Wire Line
+	1350 1450 1500 1450
+Wire Wire Line
+	1350 1550 1500 1550
+Wire Wire Line
+	1350 1650 1500 1650
+Wire Wire Line
+	1350 1950 1500 1950
+Wire Wire Line
+	1350 2050 1500 2050
+Wire Wire Line
+	1350 2150 1500 2150
+Wire Wire Line
+	1350 2250 1500 2250
+Wire Wire Line
+	1350 2350 1500 2350
+Wire Wire Line
+	1350 2450 1500 2450
+Text Notes 1000 1150 0    50   ~ 0
+1
+Text Notes 1000 1250 0    50   ~ 0
+2
+Text Notes 1000 1350 0    50   ~ 0
+3
+Text Notes 1000 1450 0    50   ~ 0
+4
+Text Notes 1000 1550 0    50   ~ 0
+5
+Text Notes 1000 1650 0    50   ~ 0
+6
+Text Notes 1000 1950 0    50   ~ 0
+7
+Text Notes 1000 2050 0    50   ~ 0
+8
+Text Notes 1000 2150 0    50   ~ 0
+9
+Text Notes 950  2250 0    50   ~ 0
+10
+Text Notes 950  2350 0    50   ~ 0
+11
+Text Notes 950  2450 0    50   ~ 0
+12
+Text Label 3350 2400 2    50   ~ 0
+3.3V
+Text Label 3350 2300 2    50   ~ 0
+3.3V
+Text Label 3350 2200 2    50   ~ 0
+GND
+Text Label 3350 2100 2    50   ~ 0
+5V
+Text Label 3350 2000 2    50   ~ 0
+GND
+Text Label 3350 1900 2    50   ~ 0
+5V
+Text Label 3350 1800 2    50   ~ 0
+GND
+Text Label 3350 1700 2    50   ~ 0
+PG
+Text Label 3350 1600 2    50   ~ 0
+5VSB
+Text Label 3350 1500 2    50   ~ 0
+12V
+Text Label 3350 1400 2    50   ~ 0
+12V
+Text Label 3350 1300 2    50   ~ 0
+3.3V
+Text Label 4550 2400 0    50   ~ 0
+3.3V
+Text Label 4550 2300 0    50   ~ 0
+-12V
+Text Label 4550 2200 0    50   ~ 0
+GND
+Text Label 4550 2100 0    50   ~ 0
+PS-ON
+Text Label 4550 2000 0    50   ~ 0
+GND
+Text Label 4550 1900 0    50   ~ 0
+GND
+Text Label 4550 1800 0    50   ~ 0
+GND
+Text Label 4550 1600 0    50   ~ 0
+5V
+Text Label 4550 1500 0    50   ~ 0
+5V
+Text Label 4550 1400 0    50   ~ 0
+5V
+Text Label 4550 1300 0    50   ~ 0
+GND
+Wire Wire Line
+	3350 1300 3500 1300
+Wire Wire Line
+	3350 1400 3500 1400
+Wire Wire Line
+	3350 1500 3500 1500
+Wire Wire Line
+	3350 1600 3500 1600
+Wire Wire Line
+	3350 1700 3500 1700
+Wire Wire Line
+	3350 1800 3500 1800
+Wire Wire Line
+	3350 1900 3500 1900
+Wire Wire Line
+	3350 2000 3500 2000
+Wire Wire Line
+	3350 2100 3500 2100
+Wire Wire Line
+	3350 2200 3500 2200
+Wire Wire Line
+	3350 2300 3500 2300
+Wire Wire Line
+	3350 2400 3500 2400
+Wire Wire Line
+	4400 1300 4550 1300
+Wire Wire Line
+	4400 1400 4550 1400
+Wire Wire Line
+	4400 1500 4550 1500
+Wire Wire Line
+	4400 1600 4550 1600
+Wire Wire Line
+	4400 1800 4550 1800
+Wire Wire Line
+	4400 1900 4550 1900
+Wire Wire Line
+	4400 2000 4550 2000
+Wire Wire Line
+	4400 2100 4550 2100
+Wire Wire Line
+	4400 2200 4550 2200
+Wire Wire Line
+	4400 2300 4550 2300
+Wire Wire Line
+	4400 2400 4550 2400
+Wire Notes Line
+	800  950  800  2700
+Wire Notes Line
+	800  2700 4950 2700
+Wire Notes Line
+	4950 2700 4950 950 
+Wire Notes Line
+	4950 950  800  950 
+Text Notes 2300 900  0    79   ~ 0
+Power Connectors
+Text Label 3150 3200 2    50   ~ 0
+GND
+Text Label 3150 3400 2    50   ~ 0
+-12V
+Text Label 4900 3200 0    50   ~ 0
+GND
+Text Label 4900 3400 0    50   ~ 0
+-5V
+Wire Wire Line
+	3150 3200 3450 3200
+Wire Wire Line
+	3450 3200 4050 3200
+Connection ~ 3450 3200
+Wire Wire Line
+	4050 3200 4550 3200
+Connection ~ 4050 3200
+Wire Wire Line
+	4350 3500 4550 3500
+Wire Wire Line
+	4550 3500 4550 3400
+Wire Wire Line
+	4550 3400 4900 3400
+Connection ~ 4550 3400
+Wire Wire Line
+	4550 3200 4900 3200
+Connection ~ 4550 3200
+Wire Wire Line
+	3150 3400 3450 3400
+Wire Wire Line
+	3450 3400 3450 3500
+Wire Wire Line
+	3450 3500 3750 3500
+Connection ~ 3450 3400
+Text Notes 1100 3200 0    50   ~ 0
+-5V
+Text Notes 1150 3600 0    50   ~ 0
+5V
+Text Notes 1100 4000 0    50   ~ 0
+12V
+Text Label 1000 3750 2    50   ~ 0
+GND
+Text Label 1000 4150 2    50   ~ 0
+GND
+Text Label 1000 3350 2    50   ~ 0
+-5V
+Text Label 2150 3350 0    50   ~ 0
+GND
+Text Label 2150 3750 0    50   ~ 0
+5V
+Text Label 2150 4150 0    50   ~ 0
+12V
+Wire Wire Line
+	2150 3350 1950 3350
+Wire Wire Line
+	1750 3350 1500 3350
+Wire Wire Line
+	1200 3350 1000 3350
+Wire Wire Line
+	2150 3750 1950 3750
+Wire Wire Line
+	1750 3750 1500 3750
+Wire Wire Line
+	1200 3750 1000 3750
+Wire Wire Line
+	2150 4150 1950 4150
+Wire Wire Line
+	1750 4150 1500 4150
+Wire Wire Line
+	1200 4150 1000 4150
+$Comp
+L Device:LED D4
+U 1 1 6218FBEF
+P 1350 4550
+F 0 "D4" H 1343 4767 50  0000 C CNN
+F 1 "LED" H 1343 4676 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 4550 50  0001 C CNN
+F 3 "~" H 1350 4550 50  0001 C CNN
+	1    1350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 62190871
+P 1850 4550
+F 0 "R4" V 1654 4550 50  0000 C CNN
+F 1 "330" V 1745 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 4550 50  0001 C CNN
+F 3 "~" H 1850 4550 50  0001 C CNN
+	1    1850 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 4550 1500 4550
+Text Label 2150 4550 0    50   ~ 0
+PG
+Wire Wire Line
+	2150 4550 1950 4550
+Text Label 1000 4550 2    50   ~ 0
+GND
+Wire Wire Line
+	1200 4550 1000 4550
+Text Notes 950  4400 0    50   ~ 0
+PWR OK
+Wire Notes Line
+	750  3050 750  4700
+Wire Notes Line
+	750  4700 2350 4700
+Wire Notes Line
+	2350 4700 2350 3050
+Wire Notes Line
+	2350 3050 750  3050
+Wire Notes Line
+	2900 3050 5150 3050
+Wire Notes Line
+	5150 3050 5150 3850
+Wire Notes Line
+	5150 3850 2900 3850
+Wire Notes Line
+	2900 3850 2900 3050
+Text Notes 3600 3000 0    79   ~ 0
+-5V Generator
+Text Notes 1200 3000 0    79   ~ 0
+Status LEDs
+NoConn ~ 4400 1700
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 62145544
+P 2900 2500
+F 0 "J4" H 2980 2492 50  0000 L CNN
+F 1 "PWR_SW" H 2980 2401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 2500 50  0001 C CNN
+F 3 "~" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+Text Label 2600 2500 2    50   ~ 0
+PS-ON
+Text Label 2600 2600 2    50   ~ 0
+GND
+Wire Wire Line
+	2600 2500 2700 2500
+Wire Wire Line
+	2600 2600 2700 2600
+$EndSCHEMATC
