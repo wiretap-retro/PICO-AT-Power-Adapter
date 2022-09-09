@@ -16,7 +16,7 @@ I designed this board for a small SBC that I could not fit a large power supply 
 Molex only produced the flat style AT pin header (8619) for use with the 90331 power supply connectors. The flat pin 8619 style motherboard side connectors were only used on AT motherboards to a certain time period, then Molex discontinued the 8619 and replaced it with the KK 396 square pin connector, which is compatible with the 90331 connector as well as KK 396 female connectors, obviously. I only have one motherboard in my collection that came standard with the KK 396 connector. If the motherboard uses the old 8619 connector, it would need to be replaced with the KK 396 type. So, with the KK 396 compatible with both the 90331 and KK 396 itself, you lose no functionality with an original AT power supply connector. I have validated this with motherboards I have converted. The part number for the motherboard side is Molex 41791-0836. (2 required)
 
 ## Community Works
-Check out Vogons.org for the thread where people are building these and also modifying the design: https://www.vogons.org/viewtopic.php?f=46&t=86465
+Check out Vogons.org for the thread where people are building these and also modifying the design to have fan headers and other cool stuff: https://www.vogons.org/viewtopic.php?f=46&t=86465
 
 ## Other
 This is an open source design. Feel free to do what you want with it.
