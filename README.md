@@ -9,7 +9,7 @@ I designed this board for a small SBC that I could not fit a large power supply 
 ## Building
 * Detailed BOM for Mouser parts is included. Subsitutions may be necessary depending on the chip/component shortages.
 * Solder the SMD components first, then solder the through-hole components. The 7905 component will need to be flush clipped with the board before soldering, to ensure the ATX connector sits flat.
-* Depending on your motherboard, this may not fit without modification to the connector. You will need to have the square pins on the power connector, not the larger round pins or flat pins. Most AT boards have the flat pins. See notes section below.
+* Depending on your motherboard, this may not fit without modification to the motherboard's power connector. You will need to have the square pins on the power connector, not the larger round pins or flat pins. Most AT boards have the flat pins. See notes section below.
 * The power switch pin header is for connecting a standard toggle on-off switch to control the ATX power supply. 
 
 ## Notes
